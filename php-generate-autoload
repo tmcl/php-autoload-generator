@@ -1,4 +1,4 @@
-#!/usr/bin/env php
+#!/usr/bin/php -dshort_open_tag=1
 <?php
 
 if (\file_exists(__DIR__ . '/vendor/autoload.php')) {
